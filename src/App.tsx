@@ -1,11 +1,16 @@
 import React from 'react';
+import GStyles from './Config/GStyles';
 import AppRoutes from './routes/AppRoutes';
 
 
 
 function App() {
   return (
-    <AppRoutes />
+    <>
+      <GStyles />
+        <AppRoutes />
+    </>
+    
   );
 }
 
